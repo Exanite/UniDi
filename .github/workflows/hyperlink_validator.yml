@@ -5,6 +5,8 @@ on:
     paths:
       - 'Documentation/**'
       - '*.md'
+  workflow_dispatch:
+
 jobs:
   linkChecker:
     runs-on: ubuntu-latest
